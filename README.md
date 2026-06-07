@@ -1,17 +1,17 @@
 <div align="center">
 
 <!-- Custom animated banner -->
-<img src="header.svg" width="100%" alt="Mohamed Bassia — Security Researcher :: Red Teamer"/>
+<img src="header.svg" width="100%" alt="Mohamed Bassia — Security Researcher"/>
 
 <!-- Typing animation -->
 <a href="https://github.com/0xBassia">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=600&lines=Security+Researcher+%7C+Red+Teamer;Breaking+things+to+make+them+safer;Adversary+Simulation+%26+Threat+Emulation;2x+Security+Advisory+Credits" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=640&lines=Security+Researcher+%7C+Vulnerability+Hunter;Source-Code+Auditing+%26+SAST;0-day+Discovery+%26+Responsible+Disclosure;Web+Exploitation+%26+Supply-Chain+Security" alt="Typing SVG"/>
 </a>
 
 <br/>
 
-<img src="https://img.shields.io/badge/Focus-Offensive%20Security-00ff9c?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/MITRE-ATT%26CK-00d4ff?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Focus-Vulnerability%20Research-00ff9c?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Published-CVEs%20%26%20Advisories-00d4ff?style=for-the-badge&labelColor=0d1117"/>
 <img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=bd00ff&labelColor=0d1117&label=Followers"/>
 
 </div>
@@ -25,19 +25,46 @@
 └─# cat profile.txt
 
 [+] Name........: Mohamed Bassia
-[+] Role........: Security Researcher / Red Teamer
-[+] Specialties.: Adversary simulation, detection testing, C2 frameworks
-[+] Credits.....: 2x GitHub Security Advisory credits
-[+] Status......: Always learning, always breaking (ethically)
+[+] Role........: Security Researcher / Vulnerability Hunter
+[+] Specialties.: Source-code auditing, 0-day discovery, web exploitation
+[+] Bug classes.: Prototype pollution, SSRF, IDOR, CSRF, auth bypass
+[+] Credits.....: Published CVEs + GitHub Security Advisory credits
+[+] Status......: Reading code others trust, finding what they missed
 ```
 
 ## `> arsenal --list`
 
 <div align="center">
 
-| Offense | Tooling | Scripting |
-|:---:|:---:|:---:|
-| ![RedTeam](https://img.shields.io/badge/Red%20Teaming-ff2d78?style=flat-square&logo=hackthebox&logoColor=white) ![C2](https://img.shields.io/badge/C2%20Frameworks-0d1117?style=flat-square&logo=gnometerminal&logoColor=00ff9c) | ![ATT&CK](https://img.shields.io/badge/Atomic%20Red%20Team-d12026?style=flat-square&logo=target&logoColor=white) ![Kali](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white) | ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
+**Source-Code Auditing & SAST**
+
+![CodeQL](https://img.shields.io/badge/CodeQL-2188FF?style=flat-square&logo=github&logoColor=white)
+![Semgrep](https://img.shields.io/badge/Semgrep-1B2B34?style=flat-square&logo=semgrep&logoColor=00ff9c)
+![CodeChecker](https://img.shields.io/badge/Static%20Analysis-00ff9c?style=flat-square&logo=sonarqube&logoColor=0d1117)
+![Manual Review](https://img.shields.io/badge/Manual%20Code%20Review-0d1117?style=flat-square&logo=gnometerminal&logoColor=00ff9c)
+
+**Vulnerability Research & Exploitation**
+
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite%20Pro-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![pwntools](https://img.shields.io/badge/pwntools-0d1117?style=flat-square&logo=python&logoColor=00d4ff)
+![Ghidra](https://img.shields.io/badge/Ghidra-FF3B30?style=flat-square&logo=ghidra&logoColor=white)
+![Frida](https://img.shields.io/badge/Frida-E91E63?style=flat-square&logo=frida&logoColor=white)
+
+**Fuzzing & Supply-Chain**
+
+![AFL++](https://img.shields.io/badge/AFL%2B%2B-1B2B34?style=flat-square&logo=gnu&logoColor=00ff9c)
+![libFuzzer](https://img.shields.io/badge/libFuzzer-262D3A?style=flat-square&logo=llvm&logoColor=00d4ff)
+![OSV](https://img.shields.io/badge/OSV%20Scanner-4285F4?style=flat-square&logo=google&logoColor=white)
+![Dependency Audit](https://img.shields.io/badge/Supply--Chain%20Audit-bd00ff?style=flat-square&logo=npm&logoColor=white)
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 </div>
 
