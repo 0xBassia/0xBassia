@@ -10,9 +10,9 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Focus-Vulnerability%20Research-00ff9c?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Published%20CVEs-7-ff2d78?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=bd00ff&labelColor=0d1117&label=Followers"/>
+<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Focus-Vulnerability%20Research-00ff9c?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Published%20CVEs-7-ff2d78?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://github.com/0xBassia?tab=followers"><img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=bd00ff&labelColor=0d1117&label=Followers"/></a>
 
 </div>
 
@@ -38,33 +38,33 @@
 
 **Source-Code Auditing & SAST**
 
-![CodeQL](https://img.shields.io/badge/CodeQL-2188FF?style=flat-square&logo=github&logoColor=white)
-![Semgrep](https://img.shields.io/badge/Semgrep-1B2B34?style=flat-square&logo=semgrep&logoColor=00ff9c)
-![CodeChecker](https://img.shields.io/badge/Static%20Analysis-00ff9c?style=flat-square&logo=sonarqube&logoColor=0d1117)
-![Manual Review](https://img.shields.io/badge/Manual%20Code%20Review-0d1117?style=flat-square&logo=gnometerminal&logoColor=00ff9c)
+[![CodeQL](https://img.shields.io/badge/CodeQL-2188FF?style=flat-square&logo=github&logoColor=white)](https://codeql.github.com)
+[![Semgrep](https://img.shields.io/badge/Semgrep-1B2B34?style=flat-square&logo=semgrep&logoColor=00ff9c)](https://semgrep.dev)
+[![CodeChecker](https://img.shields.io/badge/Static%20Analysis-00ff9c?style=flat-square&logo=sonarqube&logoColor=0d1117)](https://www.sonarsource.com)
+[![Manual Review](https://img.shields.io/badge/Manual%20Code%20Review-0d1117?style=flat-square&logo=gnometerminal&logoColor=00ff9c)](https://owasp.org/www-project-code-review-guide/)
 
 **Vulnerability Research & Exploitation**
 
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite%20Pro-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![pwntools](https://img.shields.io/badge/pwntools-0d1117?style=flat-square&logo=python&logoColor=00d4ff)
-![Ghidra](https://img.shields.io/badge/Ghidra-FF3B30?style=flat-square&logo=ghidra&logoColor=white)
-![Frida](https://img.shields.io/badge/Frida-E91E63?style=flat-square&logo=frida&logoColor=white)
+[![Burp Suite](https://img.shields.io/badge/Burp%20Suite%20Pro-FF6633?style=flat-square&logo=burpsuite&logoColor=white)](https://portswigger.net/burp)
+[![pwntools](https://img.shields.io/badge/pwntools-0d1117?style=flat-square&logo=python&logoColor=00d4ff)](https://github.com/Gallopsled/pwntools)
+[![Ghidra](https://img.shields.io/badge/Ghidra-FF3B30?style=flat-square&logo=ghidra&logoColor=white)](https://ghidra-sre.org)
+[![Frida](https://img.shields.io/badge/Frida-E91E63?style=flat-square&logo=frida&logoColor=white)](https://frida.re)
 
 **Fuzzing & Supply-Chain**
 
-![AFL++](https://img.shields.io/badge/AFL%2B%2B-1B2B34?style=flat-square&logo=gnu&logoColor=00ff9c)
-![libFuzzer](https://img.shields.io/badge/libFuzzer-262D3A?style=flat-square&logo=llvm&logoColor=00d4ff)
-![OSV](https://img.shields.io/badge/OSV%20Scanner-4285F4?style=flat-square&logo=google&logoColor=white)
-![Dependency Audit](https://img.shields.io/badge/Supply--Chain%20Audit-bd00ff?style=flat-square&logo=npm&logoColor=white)
+[![AFL++](https://img.shields.io/badge/AFL%2B%2B-1B2B34?style=flat-square&logo=gnu&logoColor=00ff9c)](https://github.com/AFLplusplus/AFLplusplus)
+[![libFuzzer](https://img.shields.io/badge/libFuzzer-262D3A?style=flat-square&logo=llvm&logoColor=00d4ff)](https://llvm.org/docs/LibFuzzer.html)
+[![OSV](https://img.shields.io/badge/OSV%20Scanner-4285F4?style=flat-square&logo=google&logoColor=white)](https://github.com/google/osv-scanner)
+[![Dependency Audit](https://img.shields.io/badge/Supply--Chain%20Audit-bd00ff?style=flat-square&logo=npm&logoColor=white)](https://docs.npmjs.com/cli/commands/npm-audit)
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev)
+[![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)](https://en.cppreference.com/w/c)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 
 </div>
 
@@ -124,7 +124,7 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=0xBassia&style=for-the-badge&color=00ff9c&label=PROFILE+VISITS"/>
+<a href="https://github.com/0xBassia"><img src="https://komarev.com/ghpvc/?username=0xBassia&style=for-the-badge&color=00ff9c&label=PROFILE+VISITS"/></a>
 
 <br/><br/>
 
