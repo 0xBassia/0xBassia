@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Custom animated banner -->
-<img src="header.svg" width="100%" alt="Mohamed Bassia — Security Researcher"/>
+<a href="https://github.com/0xBassia"><img src="header.svg" width="100%" alt="Mohamed Bassia — Security Researcher"/></a>
 
 <!-- Typing animation -->
 <a href="https://github.com/0xBassia">
@@ -96,14 +96,14 @@
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xBassia&theme=tokyonight" width="100%" alt="Profile details"/>
+<a href="https://github.com/0xBassia"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xBassia&theme=tokyonight" width="100%" alt="Profile details"/></a>
 
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0xBassia&theme=tokyonight"/>
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0xBassia&theme=tokyonight&utcOffset=1"/>
+<a href="https://github.com/0xBassia"><img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0xBassia&theme=tokyonight"/></a>
+<a href="https://github.com/0xBassia"><img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0xBassia&theme=tokyonight&utcOffset=1"/></a>
 
-<img src="https://streak-stats.demolab.com?user=0xBassia&disable_animations=true&hide_border=true&background=0d1117&ring=00ff9c&fire=00d4ff&currStreakLabel=00ff9c&sideLabels=8b9cb3&currStreakNum=e6edf3&sideNums=e6edf3&dates=5b6b82" alt="Streak"/>
+<a href="https://github.com/0xBassia"><img src="https://streak-stats.demolab.com?user=0xBassia&disable_animations=true&hide_border=true&background=0d1117&ring=00ff9c&fire=00d4ff&currStreakLabel=00ff9c&sideLabels=8b9cb3&currStreakNum=e6edf3&sideNums=e6edf3&dates=5b6b82" alt="Streak"/></a>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=0xBassia&bg_color=0d1117&color=8b9cb3&line=00ff9c&point=00d4ff&area=true&area_color=00ff9c&hide_border=true" width="100%" alt="Activity graph"/>
+<a href="https://github.com/0xBassia"><img src="https://github-readme-activity-graph.vercel.app/graph?username=0xBassia&bg_color=0d1117&color=8b9cb3&line=00ff9c&point=00d4ff&area=true&area_color=00ff9c&hide_border=true" width="100%" alt="Activity graph"/></a>
 
 </div>
 
