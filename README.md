@@ -50,7 +50,7 @@
 <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0xBassia&theme=tokyonight"/>
 <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0xBassia&theme=tokyonight&utcOffset=1"/>
 
-<img src="https://streak-stats.demolab.com?user=0xBassia&hide_border=true&background=0d1117&ring=00ff9c&fire=00d4ff&currStreakLabel=00ff9c&sideLabels=8b9cb3&currStreakNum=e6edf3&sideNums=e6edf3&dates=5b6b82" alt="Streak"/>
+<img src="https://streak-stats.demolab.com?user=0xBassia&mode=daily&hide_border=true&background=0d1117&ring=00ff9c&fire=00d4ff&currStreakLabel=00ff9c&sideLabels=8b9cb3&currStreakNum=e6edf3&sideNums=e6edf3&dates=5b6b82" alt="Streak"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=0xBassia&bg_color=0d1117&color=8b9cb3&line=00ff9c&point=00d4ff&area=true&area_color=00ff9c&hide_border=true" width="100%" alt="Activity graph"/>
 
