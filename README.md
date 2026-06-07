@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Custom animated banner -->
-<img src="banner.svg" width="100%" alt="Mohamed Bassia — Security Researcher :: Red Teamer"/>
+<img src="header.svg" width="100%" alt="Mohamed Bassia — Security Researcher :: Red Teamer"/>
 
 <!-- Typing animation -->
 <a href="https://github.com/0xBassia">
@@ -45,8 +45,10 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=0xBassia&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff9c&icon_color=00d4ff&text_color=8b9cb3&ring_color=00ff9c&include_all_commits=true&count_private=true"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xBassia&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff9c&text_color=8b9cb3&langs_count=8"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xBassia&theme=tokyonight" width="100%" alt="Profile details"/>
+
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0xBassia&theme=tokyonight"/>
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0xBassia&theme=tokyonight&utcOffset=1"/>
 
 <img src="https://streak-stats.demolab.com?user=0xBassia&hide_border=true&background=0d1117&ring=00ff9c&fire=00d4ff&currStreakLabel=00ff9c&sideLabels=8b9cb3&currStreakNum=e6edf3&sideNums=e6edf3&dates=5b6b82" alt="Streak"/>
 
@@ -66,7 +68,7 @@
 
 <div align="center">
 
-<a href="mailto:med.bassia@gmail.com"><img src="https://img.shields.io/badge/Email-med.bassia@gmail.com-00ff9c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/></a>
+<a href="mailto:0xbassia@gmail.com"><img src="https://img.shields.io/badge/Email-0xbassia@gmail.com-00ff9c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/></a>
 <a href="https://github.com/0xBassia"><img src="https://img.shields.io/badge/GitHub-0xBassia-00d4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/></a>
 
 <br/><br/>
