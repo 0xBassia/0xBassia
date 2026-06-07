@@ -11,7 +11,7 @@
 <br/>
 
 <img src="https://img.shields.io/badge/Focus-Vulnerability%20Research-00ff9c?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Published-CVEs%20%26%20Advisories-00d4ff?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Published%20CVEs-7-ff2d78?style=for-the-badge&labelColor=0d1117"/>
 <img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=bd00ff&labelColor=0d1117&label=Followers"/>
 
 </div>
@@ -28,7 +28,7 @@
 [+] Role........: Security Researcher / Vulnerability Hunter
 [+] Specialties.: Source-code auditing, 0-day discovery, web exploitation
 [+] Bug classes.: Prototype pollution, SSRF, IDOR, CSRF, auth bypass
-[+] Credits.....: Published CVEs + GitHub Security Advisory credits
+[+] Credits.....: 7 published CVEs (6 GitHub-reviewed + 1 WPScan)
 [+] Status......: Reading code others trust, finding what they missed
 ```
 
@@ -68,6 +68,30 @@
 
 </div>
 
+## `> CVEs --published`
+
+<div align="center">
+
+**7 published CVEs** &nbsp;·&nbsp; **6× High (CVSS 8.2)** &nbsp;·&nbsp; prototype-pollution & access-control specialist
+
+</div>
+
+| CVE | Package / Plugin | Severity | Vulnerability Class |
+|:---|:---|:---:|:---|
+| [CVE-2026-47378](https://github.com/advisories/GHSA-4w6r-5c2j-qf5f) | `nocodb` | 🟠 Medium | Hidden column exposure in public shared views (broken access control) |
+| [CVE-2026-46510](https://github.com/advisories/GHSA-m2hg-wjq3-28wq) | `form-data-objectizer` | 🔴 High `8.2` | Prototype pollution (bracket-notation keys) |
+| [CVE-2026-46509](https://github.com/advisories/GHSA-x7q7-fchv-8h2j) | `@ranfdev/deepobj` | 🔴 High `8.2` | Prototype pollution |
+| [CVE-2026-45325](https://github.com/advisories/GHSA-cmxg-94mg-jq94) | `@tmlmobilidade/utils` | 🔴 High `8.2` | Prototype pollution (`setValueAtPath`) |
+| [CVE-2026-45302](https://github.com/advisories/GHSA-xp7r-j8r6-j9h3) | `parse-nested-form-data` | 🔴 High `8.2` | Prototype pollution (`__proto__` in form fields) |
+| [CVE-2026-44483](https://github.com/advisories/GHSA-c567-44rc-m5hq) | `@rvf/set-get` | 🔴 High `8.2` | Prototype pollution (via `@rvf/core` preprocessFormData) |
+| [CVE-2026-9067](https://wpscan.com/vulnerability/7fac98eb-f82c-4705-a956-aba650945826) | `Schema & Structured Data for WP & AMP` (< 1.60) | 🔴 High | Unauthenticated arbitrary media upload |
+
+<div align="center">
+
+<sub>6 npm CVEs credited via the <a href="https://github.com/advisories?query=credit%3A0xBassia">GitHub Advisory Database</a> · WordPress CVE disclosed through <a href="https://wpscan.com/vulnerability/7fac98eb-f82c-4705-a956-aba650945826">WPScan</a></sub>
+
+</div>
+
 ## `> stats --github`
 
 <div align="center">
@@ -87,7 +111,7 @@
 
 <div align="center">
 
-🦈 Pull Shark ×2 · ⚡ Quickdraw · 👥 Pair Extraordinaire · 🧊 Arctic Code Vault Contributor · 🛡️ 2× Security Advisory Credits
+🛡️ 7× Published CVEs · 🦈 Pull Shark ×2 · ⚡ Quickdraw · 👥 Pair Extraordinaire · 🧊 Arctic Code Vault Contributor
 
 </div>
 
