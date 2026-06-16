@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Custom animated banner -->
-<a href="https://github.com/0xBassia"><img src="header.svg" width="100%" alt="Mohamed Bassia — Security Researcher"/></a>
+<a href="https://github.com/0xBassia"><img src="header.svg" width="100%" alt="Mohamed Bassia, Security Researcher"/></a>
 
 <!-- Typing animation -->
 <a href="https://github.com/0xBassia">
@@ -128,6 +128,6 @@
 
 <br/><br/>
 
-<sub><code>root@0xbassia:~# echo "Hack the planet — responsibly."</code> <code>█</code></sub>
+<sub><code>root@0xbassia:~# echo "Hack the planet, responsibly."</code> <code>█</code></sub>
 
 </div>
