@@ -89,7 +89,7 @@
 
 <div align="center">
 
-<sub>6 npm CVEs credited via the <a href="https://github.com/advisories?query=credit%3A0xBassia">GitHub Advisory Database</a> · WordPress CVE disclosed through <a href="https://wpscan.com/vulnerability/7fac98eb-f82c-4705-a956-aba650945826">WPScan</a></sub>
+<sub>6 npm CVEs credited via the <a href="https://github.com/advisories?query=credit%3A0xBassia">GitHub Advisory Database</a> · 2 WordPress CVEs disclosed through <a href="https://wpscan.com/vulnerability/043f449f-fc65-4218-83d2-7742e62f2af3">WPScan</a></sub>
 
 </div>
 
