@@ -11,7 +11,7 @@
 <br/>
 
 <a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Focus-Vulnerability%20Research-00ff9c?style=for-the-badge&labelColor=0d1117"/></a>
-<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Published%20CVEs-7-ff2d78?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Published%20CVEs-8-ff2d78?style=for-the-badge&labelColor=0d1117"/></a>
 <a href="https://github.com/0xBassia?tab=followers"><img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=bd00ff&labelColor=0d1117&label=Followers"/></a>
 
 </div>
@@ -28,7 +28,7 @@
 [+] Role........: Security Researcher / Vulnerability Hunter
 [+] Specialties.: Source-code auditing, 0-day discovery, web exploitation
 [+] Bug classes.: Prototype pollution, SSRF, IDOR, CSRF, auth bypass
-[+] Credits.....: 7 published CVEs (6 GitHub-reviewed + 1 WPScan)
+[+] Credits.....: 8 published CVEs (6 GitHub-reviewed + 2 WPScan)
 [+] Status......: Reading code others trust, finding what they missed
 ```
 
@@ -72,7 +72,7 @@
 
 <div align="center">
 
-**7 published CVEs** &nbsp;·&nbsp; **6× High (CVSS 8.2)** &nbsp;·&nbsp; prototype-pollution & access-control specialist
+**8 published CVEs** &nbsp;·&nbsp; **unauth RCE, prototype pollution, access control** &nbsp;·&nbsp; npm & WordPress
 
 </div>
 
@@ -84,6 +84,7 @@
 | [CVE-2026-45325](https://github.com/advisories/GHSA-cmxg-94mg-jq94) | `@tmlmobilidade/utils` | 🔴 High `8.2` | Prototype pollution (`setValueAtPath`) |
 | [CVE-2026-45302](https://github.com/advisories/GHSA-xp7r-j8r6-j9h3) | `parse-nested-form-data` | 🔴 High `8.2` | Prototype pollution (`__proto__` in form fields) |
 | [CVE-2026-44483](https://github.com/advisories/GHSA-c567-44rc-m5hq) | `@rvf/set-get` | 🔴 High `8.2` | Prototype pollution (via `@rvf/core` preprocessFormData) |
+| [CVE-2026-9815](https://wpscan.com/vulnerability/043f449f-fc65-4218-83d2-7742e62f2af3) | `MagicForm` (<= 0.1.3) | 🔴 High | Unauthenticated arbitrary file upload to RCE |
 | [CVE-2026-9067](https://wpscan.com/vulnerability/7fac98eb-f82c-4705-a956-aba650945826) | `Schema & Structured Data for WP & AMP` (< 1.60) | 🔴 High | Unauthenticated arbitrary media upload |
 
 <div align="center">
@@ -111,7 +112,7 @@
 
 <div align="center">
 
-🛡️ 7× Published CVEs · 🦈 Pull Shark ×2 · ⚡ Quickdraw · 👥 Pair Extraordinaire · 🧊 Arctic Code Vault Contributor
+🛡️ 8× Published CVEs · 🦈 Pull Shark ×2 · ⚡ Quickdraw · 👥 Pair Extraordinaire · 🧊 Arctic Code Vault Contributor
 
 </div>
 
