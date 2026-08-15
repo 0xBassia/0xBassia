@@ -10,9 +10,10 @@
 
 <br/>
 
-<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Focus-Vulnerability%20Research-00ff9c?style=for-the-badge&labelColor=0d1117"/></a>
 <a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Published%20CVEs-13-ff2d78?style=for-the-badge&labelColor=0d1117"/></a>
-<a href="https://github.com/0xBassia?tab=followers"><img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=bd00ff&labelColor=0d1117&label=Followers"/></a>
+<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/GHSA%20Advisories-4-bd00ff?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Highest%20Severity-9.8%20Critical-00d4ff?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://github.com/0xBassia?tab=followers"><img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=00ff9c&labelColor=0d1117&label=Followers"/></a>
 
 </div>
 
@@ -27,11 +28,59 @@
 [+] Name........: Mohamed Bassia
 [+] Role........: Security Researcher / Vulnerability Hunter
 [+] Specialties.: Source-code auditing, 0-day discovery, web exploitation
-[+] Bug classes.: Prototype pollution, SSRF, IDOR, CSRF, auth bypass, RCE, privesc
+[+] Bug classes.: Account takeover, RCE, SSRF, prototype pollution, access control
 [+] Credits.....: 13 published CVEs (7 GitHub-reviewed + 6 WPScan)
 [+] Advisories..: 4 additional GHSA credits without CVE assignment
+[+] Ecosystems..: npm, Go, WordPress, Joomla
 [+] Status......: Reading code others trust, finding what they missed
 ```
+
+## `> CVEs --published`
+
+<div align="center">
+
+**13 published CVEs** &nbsp;·&nbsp; peak severity **9.8 Critical** &nbsp;·&nbsp; npm, Go & WordPress &nbsp;·&nbsp; sorted by severity
+
+</div>
+
+| CVE | Target | Severity | Vulnerability Class | Published |
+|:---|:---|:---|:---|:---|
+| [CVE&#8209;2026&#8209;14561](https://wpscan.com/vulnerability/4025601f-ed33-4772-b716-a9979830e10d) | `Authora - Easy Login with Mobile Number` (< 1.7.7) | 🟣&nbsp;Critical&nbsp;`9.8` | Unauthenticated account takeover via OTP disclosure | 2026&#8209;07&#8209;20 |
+| [CVE&#8209;2026&#8209;46510](https://github.com/advisories/GHSA-m2hg-wjq3-28wq) | `form-data-objectizer` | 🔴&nbsp;High&nbsp;`8.2` | Prototype pollution via bracket-notation form keys | 2026&#8209;05&#8209;18 |
+| [CVE&#8209;2026&#8209;45325](https://github.com/advisories/GHSA-cmxg-94mg-jq94) | `@tmlmobilidade/utils` | 🔴&nbsp;High&nbsp;`8.2` | Prototype pollution in `setValueAtPath` | 2026&#8209;05&#8209;18 |
+| [CVE&#8209;2026&#8209;45302](https://github.com/advisories/GHSA-xp7r-j8r6-j9h3) | `parse-nested-form-data` | 🔴&nbsp;High&nbsp;`8.2` | Prototype pollution via `__proto__` in form fields | 2026&#8209;05&#8209;18 |
+| [CVE&#8209;2026&#8209;46509](https://github.com/advisories/GHSA-x7q7-fchv-8h2j) | `@ranfdev/deepobj` | 🔴&nbsp;High&nbsp;`8.2` | Prototype pollution | 2026&#8209;05&#8209;14 |
+| [CVE&#8209;2026&#8209;44483](https://github.com/advisories/GHSA-c567-44rc-m5hq) | `@rvf/set-get` | 🔴&nbsp;High&nbsp;`8.2` | Prototype pollution reachable via `@rvf/core` preprocessFormData | 2026&#8209;05&#8209;11 |
+| [CVE&#8209;2026&#8209;12516](https://wpscan.com/vulnerability/2ac80164-03b7-4966-b022-833b4194de80) | `Fediverse Embeds` (< 1.5.8) | 🔴&nbsp;High&nbsp;`7.5` | Unauthenticated SSRF via media proxy, full read + open proxy | 2026&#8209;06&#8209;18 |
+| [CVE&#8209;2026&#8209;17533](https://wpscan.com/vulnerability/13b57cdc-d954-4db6-94c2-53ad04ab0d34) | `All-in-One WP Migration and Backup` (< 7.108) | 🔴&nbsp;High&nbsp;`7.2` | Network-wide PHP code execution from a multisite subsite admin | 2026&#8209;08&#8209;14 |
+| [CVE&#8209;2026&#8209;9815](https://wpscan.com/vulnerability/043f449f-fc65-4218-83d2-7742e62f2af3) | `MagicForm` (<= 0.1.3) | 🔴&nbsp;High | Unauthenticated arbitrary file upload to RCE | 2026&#8209;05&#8209;28 |
+| [CVE&#8209;2026&#8209;9067](https://wpscan.com/vulnerability/7fac98eb-f82c-4705-a956-aba650945826) | `Schema & Structured Data for WP & AMP` (< 1.60) | 🔴&nbsp;High | Unauthenticated arbitrary media upload | 2026&#8209;05&#8209;20 |
+| [CVE&#8209;2026&#8209;12517](https://wpscan.com/vulnerability/460a996f-e27d-47e8-9d68-9e6be93100c0) | `Fediverse Embeds` (< 1.5.8) | 🟠&nbsp;Medium&nbsp;`5.3` | Unauthenticated SSRF via site-info endpoint | 2026&#8209;06&#8209;18 |
+| [CVE&#8209;2026&#8209;47378](https://github.com/advisories/GHSA-4w6r-5c2j-qf5f) | `nocodb` | 🟠&nbsp;Medium | Hidden column exposure in public shared views | 2026&#8209;06&#8209;05 |
+| [CVE&#8209;2026&#8209;55671](https://github.com/advisories/GHSA-29jh-8cfq-rr8x) | `zitadel/zitadel` (Go) | 🟢&nbsp;Low | SSRF and denylist bypass in outgoing HTTP components | 2026&#8209;06&#8209;18 |
+
+<div align="center">
+
+<sub>🟣 Critical &nbsp;·&nbsp; 🔴 High &nbsp;·&nbsp; 🟠 Medium &nbsp;·&nbsp; 🟢 Low &nbsp;·&nbsp; CVSS v3.1 base score shown where assigned</sub>
+
+<sub>7 GitHub-reviewed CVEs (6 npm + 1 Go) credited via the <a href="https://github.com/advisories?query=credit%3A0xBassia">GitHub Advisory Database</a> &nbsp;·&nbsp; 6 WordPress CVEs disclosed through <a href="https://wpscan.com/vulnerability/043f449f-fc65-4218-83d2-7742e62f2af3">WPScan</a></sub>
+
+</div>
+
+## `> advisories --credited`
+
+<div align="center">
+
+**4 published GitHub Security Advisories** &nbsp;·&nbsp; credited as reporter, no CVE assigned
+
+</div>
+
+| Advisory | Target | Severity | Vulnerability Class | Published |
+|:---|:---|:---|:---|:---|
+| [GHSA&#8209;mrf2&#8209;rxph&#8209;r28h](https://github.com/Kunena/Kunena-Forum/security/advisories/GHSA-mrf2-rxph-r28h) | `Kunena Forum` (<= 7.0.4) | 🔴&nbsp;High&nbsp;`8.2` | Unauthenticated attachment privacy modification, missing CSRF and authorization | 2026&#8209;05&#8209;18 |
+| [GHSA&#8209;wfph&#8209;gf24&#8209;pjqg](https://github.com/Kunena/Kunena-Forum/security/advisories/GHSA-wfph-gf24-pjqg) | `Kunena Forum` (<= 7.0.4) | 🟠&nbsp;Medium&nbsp;`4.3` | Missing CSRF token check on the topic rating endpoint | 2026&#8209;05&#8209;18 |
+| [GHSA&#8209;px35&#8209;hwj4&#8209;wqrh](https://github.com/Kunena/Kunena-Forum/security/advisories/GHSA-px35-hwj4-wqrh) | `Kunena Forum` (<= 7.0.4) | 🟢&nbsp;Low&nbsp;`3.5` | Arbitrary-user avatar overwrite via missing CSRF check | 2026&#8209;05&#8209;18 |
+| [GHSA&#8209;354h&#8209;gmhv&#8209;mr9c](https://github.com/TryGhost/Ghost/security/advisories/GHSA-354h-gmhv-mr9c) | `TryGhost/Ghost` (< 6.27.0) | 🟢&nbsp;Low&nbsp;`2.7` | SSRF in webhook trigger (CWE-918) | 2026&#8209;08&#8209;11 |
 
 ## `> arsenal --list`
 
@@ -64,68 +113,21 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev)
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)](https://www.php.net)
 [![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)](https://en.cppreference.com/w/c)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 
 </div>
 
-## `> CVEs --published`
-
-<div align="center">
-
-**13 published CVEs** &nbsp;·&nbsp; **account takeover, unauth RCE, SSRF, prototype pollution, access control** &nbsp;·&nbsp; npm, Go & WordPress
-
-</div>
-
-| CVE | Package / Plugin | Severity | Vulnerability Class |
-|:---|:---|:---:|:---|
-| [CVE-2026-55671](https://github.com/advisories/GHSA-29jh-8cfq-rr8x) | `zitadel/zitadel` (Go) | 🟢 Low | SSRF + denylist bypass in outgoing HTTP components |
-| [CVE-2026-47378](https://github.com/advisories/GHSA-4w6r-5c2j-qf5f) | `nocodb` | 🟠 Medium | Hidden column exposure in public shared views (broken access control) |
-| [CVE-2026-46510](https://github.com/advisories/GHSA-m2hg-wjq3-28wq) | `form-data-objectizer` | 🔴 High `8.2` | Prototype pollution (bracket-notation keys) |
-| [CVE-2026-46509](https://github.com/advisories/GHSA-x7q7-fchv-8h2j) | `@ranfdev/deepobj` | 🔴 High `8.2` | Prototype pollution |
-| [CVE-2026-45325](https://github.com/advisories/GHSA-cmxg-94mg-jq94) | `@tmlmobilidade/utils` | 🔴 High `8.2` | Prototype pollution (`setValueAtPath`) |
-| [CVE-2026-45302](https://github.com/advisories/GHSA-xp7r-j8r6-j9h3) | `parse-nested-form-data` | 🔴 High `8.2` | Prototype pollution (`__proto__` in form fields) |
-| [CVE-2026-44483](https://github.com/advisories/GHSA-c567-44rc-m5hq) | `@rvf/set-get` | 🔴 High `8.2` | Prototype pollution (via `@rvf/core` preprocessFormData) |
-| [CVE-2026-17533](https://wpscan.com/vulnerability/13b57cdc-d954-4db6-94c2-53ad04ab0d34) | `All-in-One WP Migration and Backup` (< 7.108) | 🔴 High `7.2` | Multisite subsite-admin → network-wide PHP code execution via REST import |
-| [CVE-2026-14561](https://wpscan.com/vulnerability/4025601f-ed33-4772-b716-a9979830e10d) | `Authora – Easy Login with Mobile Number` (< 1.7.7) | 🟣 Critical `9.8` | Unauthenticated account takeover via OTP disclosure |
-| [CVE-2026-9815](https://wpscan.com/vulnerability/043f449f-fc65-4218-83d2-7742e62f2af3) | `MagicForm` (<= 0.1.3) | 🔴 High | Unauthenticated arbitrary file upload to RCE |
-| [CVE-2026-12516](https://wpscan.com/vulnerability/2ac80164-03b7-4966-b022-833b4194de80) | `Fediverse Embeds` (< 1.5.8) | 🔴 High `7.5` | Unauthenticated SSRF via media proxy (full read + open proxy) |
-| [CVE-2026-12517](https://wpscan.com/vulnerability/460a996f-e27d-47e8-9d68-9e6be93100c0) | `Fediverse Embeds` (< 1.5.8) | 🟠 Medium `5.3` | Unauthenticated SSRF via site-info endpoint |
-| [CVE-2026-9067](https://wpscan.com/vulnerability/7fac98eb-f82c-4705-a956-aba650945826) | `Schema & Structured Data for WP & AMP` (< 1.60) | 🔴 High | Unauthenticated arbitrary media upload |
-
-<div align="center">
-
-<sub>7 GitHub-reviewed CVEs (6 npm + 1 Go) credited via the <a href="https://github.com/advisories?query=credit%3A0xBassia">GitHub Advisory Database</a> · 6 WordPress CVEs disclosed through <a href="https://wpscan.com/vulnerability/043f449f-fc65-4218-83d2-7742e62f2af3">WPScan</a></sub>
-
-</div>
-
-## `> advisories --credited`
-
-<div align="center">
-
-**4 published GitHub Security Advisories** &nbsp;·&nbsp; credited as reporter, no CVE assigned
-
-</div>
-
-| Advisory | Project | Severity | Vulnerability Class |
-|:---|:---|:---:|:---|
-| [GHSA-354h-gmhv-mr9c](https://github.com/TryGhost/Ghost/security/advisories/GHSA-354h-gmhv-mr9c) | `TryGhost/Ghost` (v1.18.0 – < 6.27.0) | 🟢 Low `2.7` | SSRF in webhook trigger (CWE-918) |
-| [GHSA-mrf2-rxph-r28h](https://github.com/Kunena/Kunena-Forum/security/advisories/GHSA-mrf2-rxph-r28h) | `Kunena Forum` (<= 7.0.4) | 🔴 High `8.2` | Unauthenticated attachment privacy modification (missing CSRF + authz) |
-| [GHSA-wfph-gf24-pjqg](https://github.com/Kunena/Kunena-Forum/security/advisories/GHSA-wfph-gf24-pjqg) | `Kunena Forum` (<= 7.0.4) | 🟠 Medium `4.3` | Missing CSRF token check on topic rating endpoint |
-| [GHSA-px35-hwj4-wqrh](https://github.com/Kunena/Kunena-Forum/security/advisories/GHSA-px35-hwj4-wqrh) | `Kunena Forum` (<= 7.0.4) | 🟢 Low `3.5` | Arbitrary-user avatar overwrite via missing CSRF check |
-
 ## `> stats --github`
 
 <div align="center">
 
-<a href="https://github.com/0xBassia"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0xBassia&theme=tokyonight" width="100%" alt="Profile details"/></a>
+<a href="https://github.com/0xBassia"><img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0xBassia&theme=tokyonight"/></a>
+<a href="https://github.com/0xBassia"><img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0xBassia&theme=tokyonight&utcOffset=1"/></a>
 
-<a href="https://github.com/0xBassia"><img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=0xBassia&theme=tokyonight"/></a>
-<a href="https://github.com/0xBassia"><img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=0xBassia&theme=tokyonight&utcOffset=1"/></a>
-
-<a href="https://github.com/0xBassia"><img src="https://streak-stats.demolab.com?user=0xBassia&disable_animations=true&hide_border=true&background=0d1117&ring=00ff9c&fire=00d4ff&currStreakLabel=00ff9c&sideLabels=8b9cb3&currStreakNum=e6edf3&sideNums=e6edf3&dates=5b6b82" alt="Streak"/></a>
-
-<a href="https://github.com/0xBassia"><img src="https://github-readme-activity-graph.vercel.app/graph?username=0xBassia&bg_color=0d1117&color=8b9cb3&line=00ff9c&point=00d4ff&area=true&area_color=00ff9c&hide_border=true" width="100%" alt="Activity graph"/></a>
+<a href="https://github.com/0xBassia"><img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=0xBassia&theme=tokyonight"/></a>
+<a href="https://github.com/0xBassia"><img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=0xBassia&theme=tokyonight"/></a>
 
 </div>
 
@@ -133,7 +135,9 @@
 
 <div align="center">
 
-🛡️ 13× Published CVEs · 📜 4× GHSA Advisory Credits · 🦈 Pull Shark ×2 · ⚡ Quickdraw · 👥 Pair Extraordinaire · 🧊 Arctic Code Vault Contributor
+**Research:** &nbsp; 🛡️ 13 published CVEs &nbsp;·&nbsp; 📜 4 GHSA advisory credits &nbsp;·&nbsp; 🎯 peak 9.8 Critical
+
+**GitHub:** &nbsp; 🦈 Pull Shark ×2 &nbsp;·&nbsp; ⚡ Quickdraw &nbsp;·&nbsp; 👥 Pair Extraordinaire &nbsp;·&nbsp; 🧊 Arctic Code Vault
 
 </div>
 
@@ -143,12 +147,6 @@
 
 <a href="mailto:0xbassia@gmail.com"><img src="https://img.shields.io/badge/Email-0xbassia@gmail.com-00ff9c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/></a>
 <a href="https://github.com/0xBassia"><img src="https://img.shields.io/badge/GitHub-0xBassia-00d4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/></a>
-
-<br/><br/>
-
-<a href="https://github.com/0xBassia"><img src="https://komarev.com/ghpvc/?username=0xBassia&style=for-the-badge&color=00ff9c&label=PROFILE+VISITS"/></a>
-
-<br/><br/>
 
 <sub><code>root@0xbassia:~# echo "Hack the planet, responsibly."</code> <code>█</code></sub>
 
