@@ -5,15 +5,15 @@
 
 <!-- Typing animation -->
 <a href="https://github.com/0xBassia">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=640&lines=Security+Researcher+%7C+Vulnerability+Hunter;Source-Code+Auditing+%26+SAST;0-day+Discovery+%26+Responsible+Disclosure;Web+Exploitation+%26+Supply-Chain+Security" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=640&lines=Security+Researcher+%7C+Vulnerability+Hunter;Source-Code+Auditing+%26+SAST;0-day+Discovery+%26+Responsible+Disclosure;Web+Exploitation+%26+Supply-Chain+Security" alt="Typing SVG"/>
 </a>
 
 <br/>
 
-<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Published%20CVEs-13-ff2d78?style=for-the-badge&labelColor=0d1117"/></a>
-<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/GHSA%20Advisories-4-bd00ff?style=for-the-badge&labelColor=0d1117"/></a>
-<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Highest%20Severity-9.8%20Critical-00d4ff?style=for-the-badge&labelColor=0d1117"/></a>
-<a href="https://github.com/0xBassia?tab=followers"><img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=00ff9c&labelColor=0d1117&label=Followers"/></a>
+<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Published%20CVEs-13-58a6ff?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/GHSA%20Advisories-4-388bfd?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Highest%20Severity-9.8%20Critical-bd00ff?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://github.com/0xBassia?tab=followers"><img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=a5d6ff&labelColor=0d1117&label=Followers"/></a>
 
 </div>
 
@@ -89,23 +89,23 @@
 **Source-Code Auditing & SAST**
 
 [![CodeQL](https://img.shields.io/badge/CodeQL-2188FF?style=flat-square&logo=github&logoColor=white)](https://codeql.github.com)
-[![Semgrep](https://img.shields.io/badge/Semgrep-1B2B34?style=flat-square&logo=semgrep&logoColor=00ff9c)](https://semgrep.dev)
-[![CodeChecker](https://img.shields.io/badge/Static%20Analysis-00ff9c?style=flat-square&logo=sonarqube&logoColor=0d1117)](https://www.sonarsource.com)
-[![Manual Review](https://img.shields.io/badge/Manual%20Code%20Review-0d1117?style=flat-square&logo=gnometerminal&logoColor=00ff9c)](https://owasp.org/www-project-code-review-guide/)
+[![Semgrep](https://img.shields.io/badge/Semgrep-1B2B34?style=flat-square&logo=semgrep&logoColor=58a6ff)](https://semgrep.dev)
+[![CodeChecker](https://img.shields.io/badge/Static%20Analysis-58a6ff?style=flat-square&logo=sonarqube&logoColor=0d1117)](https://www.sonarsource.com)
+[![Manual Review](https://img.shields.io/badge/Manual%20Code%20Review-0d1117?style=flat-square&logo=gnometerminal&logoColor=58a6ff)](https://owasp.org/www-project-code-review-guide/)
 
 **Vulnerability Research & Exploitation**
 
 [![Burp Suite](https://img.shields.io/badge/Burp%20Suite%20Pro-FF6633?style=flat-square&logo=burpsuite&logoColor=white)](https://portswigger.net/burp)
-[![pwntools](https://img.shields.io/badge/pwntools-0d1117?style=flat-square&logo=python&logoColor=00d4ff)](https://github.com/Gallopsled/pwntools)
+[![pwntools](https://img.shields.io/badge/pwntools-0d1117?style=flat-square&logo=python&logoColor=58a6ff)](https://github.com/Gallopsled/pwntools)
 [![Ghidra](https://img.shields.io/badge/Ghidra-FF3B30?style=flat-square&logo=ghidra&logoColor=white)](https://ghidra-sre.org)
 [![Frida](https://img.shields.io/badge/Frida-E91E63?style=flat-square&logo=frida&logoColor=white)](https://frida.re)
 
 **Fuzzing & Supply-Chain**
 
-[![AFL++](https://img.shields.io/badge/AFL%2B%2B-1B2B34?style=flat-square&logo=gnu&logoColor=00ff9c)](https://github.com/AFLplusplus/AFLplusplus)
-[![libFuzzer](https://img.shields.io/badge/libFuzzer-262D3A?style=flat-square&logo=llvm&logoColor=00d4ff)](https://llvm.org/docs/LibFuzzer.html)
+[![AFL++](https://img.shields.io/badge/AFL%2B%2B-1B2B34?style=flat-square&logo=gnu&logoColor=58a6ff)](https://github.com/AFLplusplus/AFLplusplus)
+[![libFuzzer](https://img.shields.io/badge/libFuzzer-262D3A?style=flat-square&logo=llvm&logoColor=58a6ff)](https://llvm.org/docs/LibFuzzer.html)
 [![OSV](https://img.shields.io/badge/OSV%20Scanner-4285F4?style=flat-square&logo=google&logoColor=white)](https://github.com/google/osv-scanner)
-[![Dependency Audit](https://img.shields.io/badge/Supply--Chain%20Audit-bd00ff?style=flat-square&logo=npm&logoColor=white)](https://docs.npmjs.com/cli/commands/npm-audit)
+[![Dependency Audit](https://img.shields.io/badge/Supply--Chain%20Audit-388bfd?style=flat-square&logo=npm&logoColor=white)](https://docs.npmjs.com/cli/commands/npm-audit)
 
 **Languages**
 
@@ -145,8 +145,8 @@
 
 <div align="center">
 
-<a href="mailto:0xbassia@gmail.com"><img src="https://img.shields.io/badge/Email-0xbassia@gmail.com-00ff9c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/></a>
-<a href="https://github.com/0xBassia"><img src="https://img.shields.io/badge/GitHub-0xBassia-00d4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/></a>
+<a href="mailto:0xbassia@gmail.com"><img src="https://img.shields.io/badge/Email-0xbassia@gmail.com-58a6ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/></a>
+<a href="https://github.com/0xBassia"><img src="https://img.shields.io/badge/GitHub-0xBassia-388bfd?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/></a>
 
 <sub><code>root@0xbassia:~# echo "Hack the planet, responsibly."</code> <code>█</code></sub>
 
