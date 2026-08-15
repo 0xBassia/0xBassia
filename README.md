@@ -5,7 +5,7 @@
 
 <!-- Typing animation -->
 <a href="https://github.com/0xBassia">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=640&lines=Security+Researcher+%7C+Vulnerability+Hunter;Source-Code+Auditing+%26+SAST;0-day+Discovery+%26+Responsible+Disclosure;Web+Exploitation+%26+Supply-Chain+Security" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=780&lines=Security+Researcher+%7C+Vulnerability+Hunter;Source-Code+Auditing+%26+SAST;0-day+Discovery+%26+Responsible+Disclosure;Web+Exploitation+%26+Supply-Chain+Security" alt="Typing SVG"/>
 </a>
 
 <br/>
