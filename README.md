@@ -11,7 +11,7 @@
 <br/>
 
 <a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Focus-Vulnerability%20Research-00ff9c?style=for-the-badge&labelColor=0d1117"/></a>
-<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Published%20CVEs-10-ff2d78?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Published%20CVEs-13-ff2d78?style=for-the-badge&labelColor=0d1117"/></a>
 <a href="https://github.com/0xBassia?tab=followers"><img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=bd00ff&labelColor=0d1117&label=Followers"/></a>
 
 </div>
@@ -27,8 +27,9 @@
 [+] Name........: Mohamed Bassia
 [+] Role........: Security Researcher / Vulnerability Hunter
 [+] Specialties.: Source-code auditing, 0-day discovery, web exploitation
-[+] Bug classes.: Prototype pollution, SSRF, IDOR, CSRF, auth bypass
-[+] Credits.....: 10 published CVEs (6 GitHub-reviewed + 4 WPScan)
+[+] Bug classes.: Prototype pollution, SSRF, IDOR, CSRF, auth bypass, RCE, privesc
+[+] Credits.....: 13 published CVEs (7 GitHub-reviewed + 6 WPScan)
+[+] Advisories..: 4 additional GHSA credits without CVE assignment
 [+] Status......: Reading code others trust, finding what they missed
 ```
 
@@ -72,18 +73,21 @@
 
 <div align="center">
 
-**10 published CVEs** &nbsp;·&nbsp; **unauth RCE, SSRF, prototype pollution, access control** &nbsp;·&nbsp; npm & WordPress
+**13 published CVEs** &nbsp;·&nbsp; **account takeover, unauth RCE, SSRF, prototype pollution, access control** &nbsp;·&nbsp; npm, Go & WordPress
 
 </div>
 
 | CVE | Package / Plugin | Severity | Vulnerability Class |
 |:---|:---|:---:|:---|
+| [CVE-2026-55671](https://github.com/advisories/GHSA-29jh-8cfq-rr8x) | `zitadel/zitadel` (Go) | 🟢 Low | SSRF + denylist bypass in outgoing HTTP components |
 | [CVE-2026-47378](https://github.com/advisories/GHSA-4w6r-5c2j-qf5f) | `nocodb` | 🟠 Medium | Hidden column exposure in public shared views (broken access control) |
 | [CVE-2026-46510](https://github.com/advisories/GHSA-m2hg-wjq3-28wq) | `form-data-objectizer` | 🔴 High `8.2` | Prototype pollution (bracket-notation keys) |
 | [CVE-2026-46509](https://github.com/advisories/GHSA-x7q7-fchv-8h2j) | `@ranfdev/deepobj` | 🔴 High `8.2` | Prototype pollution |
 | [CVE-2026-45325](https://github.com/advisories/GHSA-cmxg-94mg-jq94) | `@tmlmobilidade/utils` | 🔴 High `8.2` | Prototype pollution (`setValueAtPath`) |
 | [CVE-2026-45302](https://github.com/advisories/GHSA-xp7r-j8r6-j9h3) | `parse-nested-form-data` | 🔴 High `8.2` | Prototype pollution (`__proto__` in form fields) |
 | [CVE-2026-44483](https://github.com/advisories/GHSA-c567-44rc-m5hq) | `@rvf/set-get` | 🔴 High `8.2` | Prototype pollution (via `@rvf/core` preprocessFormData) |
+| [CVE-2026-17533](https://wpscan.com/vulnerability/13b57cdc-d954-4db6-94c2-53ad04ab0d34) | `All-in-One WP Migration and Backup` (< 7.108) | 🔴 High `7.2` | Multisite subsite-admin → network-wide PHP code execution via REST import |
+| [CVE-2026-14561](https://wpscan.com/vulnerability/4025601f-ed33-4772-b716-a9979830e10d) | `Authora – Easy Login with Mobile Number` (< 1.7.7) | 🟣 Critical `9.8` | Unauthenticated account takeover via OTP disclosure |
 | [CVE-2026-9815](https://wpscan.com/vulnerability/043f449f-fc65-4218-83d2-7742e62f2af3) | `MagicForm` (<= 0.1.3) | 🔴 High | Unauthenticated arbitrary file upload to RCE |
 | [CVE-2026-12516](https://wpscan.com/vulnerability/2ac80164-03b7-4966-b022-833b4194de80) | `Fediverse Embeds` (< 1.5.8) | 🔴 High `7.5` | Unauthenticated SSRF via media proxy (full read + open proxy) |
 | [CVE-2026-12517](https://wpscan.com/vulnerability/460a996f-e27d-47e8-9d68-9e6be93100c0) | `Fediverse Embeds` (< 1.5.8) | 🟠 Medium `5.3` | Unauthenticated SSRF via site-info endpoint |
@@ -91,9 +95,24 @@
 
 <div align="center">
 
-<sub>6 npm CVEs credited via the <a href="https://github.com/advisories?query=credit%3A0xBassia">GitHub Advisory Database</a> · 4 WordPress CVEs disclosed through <a href="https://wpscan.com/vulnerability/043f449f-fc65-4218-83d2-7742e62f2af3">WPScan</a></sub>
+<sub>7 GitHub-reviewed CVEs (6 npm + 1 Go) credited via the <a href="https://github.com/advisories?query=credit%3A0xBassia">GitHub Advisory Database</a> · 6 WordPress CVEs disclosed through <a href="https://wpscan.com/vulnerability/043f449f-fc65-4218-83d2-7742e62f2af3">WPScan</a></sub>
 
 </div>
+
+## `> advisories --credited`
+
+<div align="center">
+
+**4 published GitHub Security Advisories** &nbsp;·&nbsp; credited as reporter, no CVE assigned
+
+</div>
+
+| Advisory | Project | Severity | Vulnerability Class |
+|:---|:---|:---:|:---|
+| [GHSA-354h-gmhv-mr9c](https://github.com/TryGhost/Ghost/security/advisories/GHSA-354h-gmhv-mr9c) | `TryGhost/Ghost` (v1.18.0 – < 6.27.0) | 🟢 Low `2.7` | SSRF in webhook trigger (CWE-918) |
+| [GHSA-mrf2-rxph-r28h](https://github.com/Kunena/Kunena-Forum/security/advisories/GHSA-mrf2-rxph-r28h) | `Kunena Forum` (<= 7.0.4) | 🔴 High `8.2` | Unauthenticated attachment privacy modification (missing CSRF + authz) |
+| [GHSA-wfph-gf24-pjqg](https://github.com/Kunena/Kunena-Forum/security/advisories/GHSA-wfph-gf24-pjqg) | `Kunena Forum` (<= 7.0.4) | 🟠 Medium `4.3` | Missing CSRF token check on topic rating endpoint |
+| [GHSA-px35-hwj4-wqrh](https://github.com/Kunena/Kunena-Forum/security/advisories/GHSA-px35-hwj4-wqrh) | `Kunena Forum` (<= 7.0.4) | 🟢 Low `3.5` | Arbitrary-user avatar overwrite via missing CSRF check |
 
 ## `> stats --github`
 
@@ -114,7 +133,7 @@
 
 <div align="center">
 
-🛡️ 10× Published CVEs · 🦈 Pull Shark ×2 · ⚡ Quickdraw · 👥 Pair Extraordinaire · 🧊 Arctic Code Vault Contributor
+🛡️ 13× Published CVEs · 📜 4× GHSA Advisory Credits · 🦈 Pull Shark ×2 · ⚡ Quickdraw · 👥 Pair Extraordinaire · 🧊 Arctic Code Vault Contributor
 
 </div>
 
