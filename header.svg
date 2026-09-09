@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="900" height="180" role="img" aria-label="Mohamed Bassia, Security Researcher. 13 published CVEs, peak CVSS 9.8, 4 GHSA advisory credits.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="900" height="180" role="img" aria-label="Mohamed Bassia, Security Researcher. 19 published CVEs, peak CVSS 10.0, 4 GHSA advisory credits.">
 
   <defs>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
@@ -44,12 +44,12 @@
   <!-- stat block -->
   <line x1="596" y1="58" x2="596" y2="122" stroke="#21262d" stroke-width="1"/>
 
-  <text x="660" y="98" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,monospace" font-size="28" font-weight="700" fill="#a5d6ff">13</text>
+  <text x="660" y="98" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,monospace" font-size="28" font-weight="700" fill="#a5d6ff">19</text>
   <text x="660" y="120" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,monospace" font-size="9" letter-spacing="1.4" fill="#8b949e">CVES</text>
 
   <line x1="705" y1="72" x2="705" y2="110" stroke="#21262d" stroke-width="1"/>
 
-  <text x="750" y="98" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,monospace" font-size="28" font-weight="700" fill="#a5d6ff">9.8</text>
+  <text x="750" y="98" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,monospace" font-size="28" font-weight="700" fill="#a5d6ff">10.0</text>
   <text x="750" y="120" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,monospace" font-size="9" letter-spacing="1.4" fill="#8b949e">PEAK CVSS</text>
 
   <line x1="795" y1="72" x2="795" y2="110" stroke="#21262d" stroke-width="1"/>
