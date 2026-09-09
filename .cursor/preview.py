@@ -159,8 +159,8 @@ class PreviewHandler(SimpleHTTPRequestHandler):
 def main() -> None:
     handler = partial(PreviewHandler, directory=REPO_ROOT)
     with ThreadingHTTPServer((HOST, PORT), handler) as httpd:
-        print(f"README preview (offline) serving {README}")
-        print(f"  -> http://{HOST}:{PORT}/  (Ctrl+C to stop)")
+        print(f"README preview (offline) serving {README}", flush=True)
+        print(f"  -> http://{HOST}:{PORT}/  (Ctrl+C to stop)", flush=True)
         httpd.serve_forever()
 
 
