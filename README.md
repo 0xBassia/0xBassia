@@ -11,7 +11,7 @@
 <br/>
 
 <a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Published%20CVEs-19-58a6ff?style=for-the-badge&labelColor=0d1117"/></a>
-<a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/GHSA%20Advisories-4-388bfd?style=for-the-badge&labelColor=0d1117"/></a>
+<a href="https://github.com/0xBassia/security-research#advisories-without-a-cve"><img src="https://img.shields.io/badge/Advisories%20without%20CVE-4-388bfd?style=for-the-badge&labelColor=0d1117"/></a>
 <a href="https://github.com/advisories?query=credit%3A0xBassia"><img src="https://img.shields.io/badge/Highest%20Severity-10.0%20Critical-bd00ff?style=for-the-badge&labelColor=0d1117"/></a>
 <a href="https://github.com/0xBassia?tab=followers"><img src="https://img.shields.io/github/followers/0xBassia?style=for-the-badge&color=a5d6ff&labelColor=0d1117&label=Followers"/></a>
 
@@ -72,6 +72,8 @@
 
 <sub>7 GitHub-reviewed CVEs (6 npm + 1 Go) credited via the <a href="https://github.com/advisories?query=credit%3A0xBassia">GitHub Advisory Database</a> &nbsp;·&nbsp; 12 WordPress CVEs disclosed through <a href="https://wpscan.com/vulnerability/043f449f-fc65-4218-83d2-7742e62f2af3">WPScan</a></sub>
 
+<sub>11 GitHub advisories credit me in total: the 7 above that carry a CVE, plus the 4 below that never had one assigned</sub>
+
 </div>
 
 ## `> advisories --credited`
@@ -79,6 +81,8 @@
 <div align="center">
 
 **4 published GitHub Security Advisories** &nbsp;·&nbsp; credited as reporter, no CVE assigned
+
+<sub>These do not appear under <code>credit:0xBassia</code> because the global Advisory Database only indexes advisories that receive a CVE</sub>
 
 </div>
 
