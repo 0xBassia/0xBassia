@@ -1,0 +1,17 @@
+{
+  "name": "0xBassia profile README preview",
+  "install": "pip3 install --user --break-system-packages markdown pygments",
+  "terminals": [
+    {
+      "name": "readme-preview",
+      "command": "python3 .cursor/preview.py",
+      "description": "Offline GitHub-style preview of README.md served on http://localhost:6419 (re-renders on refresh; no GitHub API, no token needed)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "readme-preview",
+      "port": 6419
+    }
+  ]
+}
